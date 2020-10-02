@@ -1,30 +1,43 @@
-#This programm contains show you all operators for understanding.
-#Arithmetic Operator
-#Already Defined variable value
-a=23
-b=54
-print("Addition operator:", a+b) #Addition operator
-print("Substraction operator:", a-b) #Substraction operator
-print("Division operator:", a/b) #Division operator
-print("Multiplication operator:", a*b) #Multiplication operator
-print("Modules operator", a%b) #Modules operator    
-print("Integer division operator ", a//b)#Integer division operator
-print("Exponent operator:", a**b)#Exponent
+                                                   #This programm contains show you all operators for understanding.
+                                                                    #Arithmetic Operator
+                                                              #Already Defined variable value
+a=-10
+b=20
+ #Addition operator
+print("Addition operator:", a+b)      
+ #Substraction operator
+print("Substraction operator:", a-b)  
+ #Division operator
+print("Division operator:", a/b)     
+ #Multiplication operator
+print("Multiplication operator:", a*b)
+ #Modules operator   
+print("Modules operator", a%b)  
+#Integer division operator
+print("Integer division operator ", a//b)
+#Exponent
+print("Exponent operator:", a**b)
 print("\n")
 print("Below enter a  two numbers numbers for understanding arithmetic operator")
 #Take input value from user
-c=int(input()) #if you do not cast or declar any data type like int,decimal and all then by default they accept as a string.
-d=int(input()) 
+c=float(input())           #if you do not cast or declar any data type like int,decimal and all then by default they accept as a string.
+d=float(input())            #now user can also give decimal values
 print("This is your first number:", c)
 print("This is your second number:", d)
-
-print("Addition operator:", c+d) #Addition operator
-print("Substraction operator:", c-d) #Substraction operator
-print("Division operator:", c/d) #Division operator
-print("Multiplication operator:", c*d) #Multiplication operator
-print("Modules operator", c%d) #Modules operator    
-print("Integer division operator ", c//d)#Integer division operator
-print("Exponent operator:", c**d)#Exponent
+ #Addition operator
+print("Addition operator:", c+d)
+ #Substraction operator
+print("Substraction operator:", c-d)
+ #Division operator
+print("Division operator:", c/d)
+#Multiplication operator
+print("Multiplication operator:", c*d) 
+#Modules operator    
+print("Modules operator", c%d) 
+#Integer division operator
+print("Integer division operator ", c//d)
+#Exponent
+print("Exponent operator:", c**d)
 print("\n")
 #Boolean Values
 print("Below you understand the concept of boolean values")
